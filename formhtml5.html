@@ -18,8 +18,7 @@
 <body>
     <div id="container">
         <header>
-            <img src="img/html5.png"
-             alt="html5">
+            <img src="img/html5.png" alt="html5">
         </header>
         <div id="principal">
             <nav>
@@ -53,7 +52,7 @@
             <div id="contenido">
                 <div id="formhtml5">
                     <h1>Formularios HTML 5</h1>
-                    <form action="" method="post" id="formmoderno">
+                    <form action="" method="post" id="formmoderno" enctype="multipart/form-data">
                         <fieldset>
                             <legend>Formulario Moderno</legend>
                             <p>Email: <br> <input type="email" name="email"></p>
@@ -71,7 +70,9 @@
                             <p>Color: <br> <input type="color" name="color"></p>
                             <p>Cuentame algo sobre ti: <br> <textarea name="comentarios" id="" cols="30" rows="10"
                                     placeholder="Comments"></textarea>
+                            <p><input type="file" value="No has seleccionado ningun archivo"></p>
                             <p><input type="submit" value="Enviar" id="enviar"></p>
+
 
                         </fieldset>
                     </form>

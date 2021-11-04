@@ -46,6 +46,7 @@ nav li {
     color: darkblue;
     border: solid 1px darkblue;
     border-radius: 10px;
+    background-color: #d61d1d;
 }
 nav li:hover {
     background-color: darkblue;
