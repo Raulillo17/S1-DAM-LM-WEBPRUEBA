@@ -1,0 +1,245 @@
+body {
+    margin: 0;
+}
+#container {
+    width: 95%;
+    margin: 0 auto;
+    box-shadow: 0 0 20px black;
+}
+/* fdsglksjdfrñlgk */
+header {
+    background-color: #0a0a0a;
+    padding: 16px;
+}
+header img {
+    width: 100%;
+}
+nav {
+    width: 20%;
+    float: left;
+}
+#contenido {
+    width: 80%;
+    float: right;
+    padding-bottom: 24px;
+}
+footer {
+    background-image: url(../img/fondofooter1.jpg);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 30px;
+    padding: 6px;
+}
+.cb {
+    clear: both;
+}
+nav ul, nav li {
+    padding: 0;
+    margin: 0;
+}
+nav li {
+    list-style-type: none;
+    font-size: 22px;
+    text-align: center;
+    padding: 8px;
+    margin: 5px;
+    color: darkblue;
+    border: solid 1px darkblue;
+    border-radius: 10px;
+}
+nav li:hover {
+    background-color: darkblue;
+    color: cyan;
+}
+.azulo {
+    color: darkblue;
+}
+a {
+    text-decoration: none;
+}
+#home {
+    text-align: center;
+}
+.etiqueta {
+    font-size: 34px;
+    color: red;
+}
+.text-derecha{
+    text-align: right;
+}
+h1 {
+    text-align: center;
+}
+#tablacebra tr:nth-child(odd) td{
+    background-color: #b91d97;
+  }
+#tablacebra tr:nth-child(even) td{
+    background-color:rgb(138, 20, 20);
+}
+#exterior{
+    background-color: #f0f0f0;
+}
+#tablauno table{
+    width: 60%;
+    margin: 0 auto;
+    font-size: 22px;
+    text-align: center;
+}
+#tablauno th{
+    background-color: hotpink;
+    color: black;
+}
+#tablauno tr{
+    background-color: chartreuse;
+    color:black;
+}
+#tablados table{
+    width: 60%;
+    margin: 0 auto;
+    font-size: 22px;
+    text-align: center;
+}
+#tablados th{
+    background-color: hotpink;
+    color: black;
+}
+#tablados tr{
+    background-color: chartreuse;
+    color:black;
+}
+#tablacebra table{
+    width: 60%;
+    margin: 0 auto;
+    font-size: 22px;
+    text-align: center;
+}
+#tablacalendario table{
+    width: 90%;
+    margin: 0 auto;
+    font-size: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-family: Arial;
+    
+}
+#LM{
+    background-color: #01b95c;
+    color: black;
+}
+#PROG{
+    background-color: #80ffff;
+    color: black;
+}
+#encabezado{
+    background-color: #f0f0f0;
+    color: #2c8f8f;
+    font-size: 24px;
+    font-style: italic;
+}
+#ING{
+    background-color: #80ff81;
+    color: black;
+}
+#ENDE{
+    background-color: #8080c0;
+    color: black;
+}
+#FOL{
+    background-color: #f0f0c8;
+    color: black;
+}
+#SISI{
+    background-color: #ff8002;
+    color: black;
+}
+#BDD{
+    background-color: #64aa96;
+    color: black;
+}
+#exterior th{
+    color: #2c8f8f;
+}
+#exterior1{
+    color: #2c8f8f;
+}
+#customo li{
+    list-style-type: decimal;
+}
+#customo li li{
+    list-style-type: lower-alpha;
+}
+#customo li li li{
+    list-style-type: lower-roman;
+}
+#customd li{
+    list-style-type: square;
+}
+#customd li li{
+    list-style-image: url(../img/naruto.png);
+}
+#customd li li li{
+    list-style-type: circle;
+    list-style-image: none;
+}
+#formulariov{
+    width: 90%;
+}
+#formulariov fieldset{
+    border-radius: 10px;
+}
+#formulariob {
+    width: 60%;
+}
+#formulariob fieldset{
+    border-radius: 10px;
+}
+#multimedia{
+    text-align: center;
+}
+#formmoderno{
+text-align: center;
+width: 60%;
+margin: 0 auto;
+
+}
+#formmoderno fieldset{
+    border-color: #8080c0;
+    background-image: url(../img/sasuke.jpg);
+    text-align: center;
+    border-radius: 10px;
+
+}
+#formmoderno legend{
+    font-size: 22px;
+    padding: 6px;
+}
+#enviar{
+   text-align: center;
+}
+#formmoderno input{
+    border-radius: 10px;
+}
+#parrafos h2{
+    text-align: center;
+}
+#parrafos h3{
+    text-align: center;
+}
+#parrafos h4{
+    text-align: center;
+}
+#parrafos h5{
+    text-align: center;
+}
+#parrafos h6{
+    text-align: center;
+}
+#tablas h2{
+    text-align: center;
+}
+#enlaces{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#principal{
+    background-color: #e7e7e9;
+}

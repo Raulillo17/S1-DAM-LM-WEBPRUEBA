@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>HTML - CSS</title>
+</head>
+<!-- Cuerpo de la page-->
+
+<body>
+    <div id="container">
+        <header>
+            <img src="img/html5.png" alt="html5">
+        </header>
+        <div id="principal">
+            <nav>
+                <ul>
+                    <a href="index.html">
+                        <li>Home</li>
+                    </a>
+                    <a href="parrafos.html">
+                        <li>Párrafos</li>
+                    </a>
+                    <a href="enlaces.html">
+                        <li>Enlaces</li>
+                    </a>
+                    <a href="tablas.html">
+                        <li>Tablas</li>
+                    </a>
+                    <a href="listas.html">
+                        <li>Listas</li>
+                    </a>
+                    <a href="formularios.html">
+                        <li>Formularios</li>
+                    </a>
+                    <a href="multimedia.html">
+                        <li>Multimedia</li>
+                    </a>
+                    <a href="formhtml5.html">
+                        <li>Form Html5</li>
+                    </a>
+                </ul>
+            </nav>
+            <div id="contenido">
+                <div id="formularios">
+                    <h1>FORMULARIOS</h1>
+                    <p>Para hacer formularios utilizamos la etiqueta <span class="etiqueta">form</span></p>
+                    <h2>Formulario basico</h2>
+                    <form action="" method="get" id="formulariob">
+                        <fieldset>
+                            <legend>Login</legend>
+                            <p><input type="text" name="user" placeholder="User"></p>
+                            <p><input type="text" name="password" placeholder="Password"></p>
+                            <p><textarea name="comentarios" id="" cols="30" rows="10" placeholder="Comments"></textarea>
+                            <p><input type="submit" value="Enviar"></p>
+                        </fieldset>
+                    </form>
+                </div>
+                <h2>Formulario Variado</h2>
+                <form action="" method="get" id="formulariov">
+                    <fieldset>
+                        <legend>Varias Listas</legend>
+                        <p>Lista
+                            <select name="provincia">
+                                <option value="1">Toledo</option>
+                                <option value="2">Cuenca</option>
+                                <option value="3">C. Real</option>
+                                <option value="4">Guadalajara</option>
+                                <option value="5">Albacete</option>
+                            </select>
+                        </p>
+                        
+                            <p>Lista Multiple
+                                <select name="colores" multiple size="5">
+                                    <option value="1">Azul</option>
+                                    <option value="2">Morado</option>
+                                    <option value="3">Rojo</option>
+                                    <option value="4">Verde</option>
+                                    <option value="5">Amarillo</option>
+                                </select>
+                            </p>
+                            <fieldset>
+                                <legend>Aficiones</legend>
+                                <p>Aficiones <br></p>
+                                <input type="checkbox" name="cine" value="cine">Cine <br>
+                                <input type="checkbox" name="deportes" value="deportes">Deportes<br>
+                                <input type="checkbox" name="viajar" value="viajar">Viajar<br>
+                                <input type="checkbox" name="juerga" value="juerga">Fiesta<br>
+                                </p>
+                            </fieldset>
+                            <fieldset>
+                                <legend>Sexo</legend>
+                                <p>Sexo <br></p>
+                                <input type="radio" name="sexo" value="hombre">Hombre<br>
+                                <input type="radio" name="sexo" value="mujer">Mujer<br>
+                                <input type="radio" name="sexo" value="otro">Otro<br>
+                                <input type="radio" name="sexo" value="helicoptero">Helicoptero Apache de Compate<br>
+                                <p><input type="submit" value="Aceptar"> <input type="reset" value="Clear"></p>
+                                </p>
+                            </fieldset>
+                </form>
+            </div>
+            <div class="cb"></div>
+        </div>
+        <footer>
+            S1DAM - &copy; 2021 Azarquiel
+        </footer>
+    </div>
+</body>
+
+</html>

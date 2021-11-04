@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>HTML - CSS</title>
+</head>
+<!-- Cuerpo de la page-->
+
+<body>
+    <div id="container">
+        <a name="arriba"></a>
+        <header>
+            <img src="img/html5.png" alt="html5">
+        </header>
+        <div id="principal">
+            <nav>
+                <ul>
+                    <a href="index.html">
+                        <li>Home</li>
+                    </a>
+                    <a href="parrafos.html">
+                        <li>Párrafos</li>
+                    </a>
+                    <a href="enlaces.html">
+                        <li>Enlaces</li>
+                    </a>
+                    <a href="tablas.html">
+                        <li>Tablas</li>
+                    </a>
+                    <a href="listas.html">
+                        <li>Listas</li>
+                    </a>
+                    <a href="formularios.html">
+                        <li>Formularios</li>
+                    </a>
+                    <a href="multimedia.html">
+                        <li>Multimedia</li>
+                    </a>
+                    <a href="formhtml5.html">
+                        <li>Form Html5</li>
+                    </a>
+                </ul>
+            </nav>
+            <div id="contenido">
+                <div id="tablas">
+                    <h1 class="titulo">Tablas</h1>
+                    <p>Las etiquetas mas importantes para diseñar tablas son <spam class="etiqueta">br</spam>, <spam
+                            class="etiqueta">tr</spam>, <spam class="etiqueta">th</spam> y <spam class="etiqueta">td
+                        </spam>
+                    </p>
+                    <div id="tablauno">
+                        <h2>Tabla default</h2>
+                        <table border="1">
+                            <thead>
+                                <tr>
+                                    <th>Archivo</th>
+                                    <td>Abrir</td>
+                                    <td>Cerrar</t>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th>Editar</th>
+                                    <td>Copiar</td>
+                                    <td>Pegar</td>
+                                </tr>
+                                <tr>
+                                    <th>Ayuda</th>
+                                    <td>A cerca de</td>
+                                    <td>FAQ</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div id="tablados">
+                        <h2>Tabla con combinaciones de celdas</h2>
+                        <table border="1">
+                            <thead>
+                                <tr>
+                                    <th>Archivo</th>
+                                    <td>Abrir</td>
+                                    <td>Cerrar</t>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th rowspan="2">Editar</th>
+                                    <td colspan="2">Copiar</td>
+                                </tr>
+                                <tr>
+                                    <td>A cerca de</td>
+                                    <td>FAQ</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div id="tablacebra">
+                        <h2>Tabla filas pares e impares</h2>
+                        <table border="1">
+                            <thead>
+                                <tr>
+                                    <th>Archivo</th>
+                                    <th>Abrir</th>
+                                    <th>Cerrar</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Editar</td>
+                                    <td>Copiar</td>
+                                    <td>Pegar</td>
+                                </tr>
+                                <tr>
+                                    <td>Ayuda</td>
+                                    <td>A cerca de</td>
+                                    <td>FAQ</td>
+                                </tr>
+                                <tr>
+                                    <td>Editar</td>
+                                    <td>Copiar</td>
+                                    <td>Pegar</td>
+                                </tr>
+                                <tr>
+                                    <td>Ayuda</td>
+                                    <td>A cerca de</td>
+                                    <td>FAQ</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div id="tablacalendario">
+                        <h2>Calendario Escolar S1DAM</h2>
+                        <table border="1">
+                            <thead>
+                                <tr>
+                                    <th colspan="6" id="encabezado">S1DAM</th>
+                                </tr>
+                                <tr id="exterior">
+                                    <th>/~\</th>
+                                    <th>Lunes</th>
+                                    <th>Martes</th>
+                                    <th>Miercoles</th>
+                                    <th>Jueves</th>
+                                    <th>Viernes</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td id="exterior1">8:15 <br> 9:10</td>
+                                    <td id="LM" rowspan="2">LMSG-2805299 <br> Poli. Mo, FrJo <br> (1 B-001) <br>
+                                        LMSG-2804903</td>
+                                    <td rowspan="2" id="PROG">PROG-2805296 <br> Mart Ca, JoJa <br> (1 B-001) <br>
+                                        PROG-2804905</td>
+                                    <td id="ING">ING-2805297<br> Corr. Pi, JoMa <br> (1 B-001) <br> ING-2804902</td>
+                                    <td rowspan="2" id="PROG">PROG- <br> 2805296 <br> Mart Ca, JoJa <br> (1 B-001) <br>
+                                        PROG- <br> 2804905</td>
+                                    <td id="ENDE">ENDE-2805301 <br>Polo Or, Ed <br> (1 B-001) <br> ENDE- <br> 2804901
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td id="exterior1">9:10 <br> 10:05</td>
+                                    <td id="ENDE">ENDE-<br> 2805301 <br>Polo Or, Ed <br> (1 B-001) <br> ENDE-2804901
+                                    </td>
+                                    <td id="FOL">FOL-2805295 <br> Marin Ca, RoMa <br> (1 B-001) <br> FOL-2804904</td>
+                                </tr>
+                                <tr>
+                                    <td id="exterior1">10:05 <br> 11:00</td>
+                                    <td id="ING">ING-2805297<br> Corr. Pi, JoMa <br> (1 B-001) <br> ING-2804902</td>
+                                    <td id="SISI">SISI-2805298 <br> Mart Ru, To <br> (1 B-001) <br> SISI-2805336</td>
+                                    <td id="SISI">SISI-2805298 <br> Mart Ru, To <br> (1 B-001) <br> SISI-2805336</td>
+                                    <td id="LM">LMSG- <br> 2805299 <br> Poli. Mo, FrJo <br> (1 B-001) <br> LMSG-<br>
+                                        2804903</td>
+                                    <td id="BDD">BDD-2805300 <br> Bern. Be, Cr <br> (1 B-001) <br> BDD-2804900</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td id="exterior1" colspan="5">recreo</td>
+                                </tr>
+                                <tr>
+                                    <td id="exterior1">11:30 <br> 12:25</td>
+                                    <td id="FOL">FOL-2805295 <br> Marin Ca, RoMa <br> (1 B-001) <br> FOL-2804904</td>
+                                    <td id="SISI">SISI-2805298 <br> Mart Ru, To <br> (1 B-001) <br> SISI-2805336</td>
+                                    <td id="SISI">SISI-2805298 <br> Mart Ru, To <br> (1 B-001) <br> SISI-2805336</td>
+                                    <td ID="LM">LMSG- <br> 2805299 <br> Poli. Mo, FrJo <br> (1 B-001) <br> LMSG-<br>
+                                        2804903</td>
+                                    <td id="BDD">BDD-2805300 <br> Bern. Be, Cr <br> (1 B-001) <br> BDD-2804900</td>
+                                </tr>
+                                <tr>
+                                    <td id="exterior1">12:25 <br> 13:20</td>
+                                    <td rowspan="2" id="PROG">PROG-2805296 <br> Mart Ca, JoJa <br> (1 B-001) <br>
+                                        PROG-2804905</td>
+                                    <td id="ENDE">ENDE-2805301 <br>Polo Or, Ed <br> (1 B-001) <br> ENDE-2804901</td>
+                                    <td rowspan="2" id="BDD">BDD- <br> 2805300 <br> Bern. Be, Cr <br> (1 B-001) <br>
+                                        BDD-2804900</td>
+                                    <td rowspan="2" id="BDD">BDD- <br> 2805300 <br> Bern. Be, Cr <br> (1 B-001) <br>
+                                        BDD-2804900</td>
+                                    <td rowspan="2" id="SISI">SISI-2805298 <br> Mart Ru, To <br> (1 B-001) <br>
+                                        SISI-2805336</td>
+                                </tr>
+                                <td id="exterior1">13:20 <br> 14:15</td>
+                                <td id="FOL">FOL-2805295 <br> Marin Ca, RoMa <br> (1 B-001) <br> FOL-2804904</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cb"></div>
+    </div>
+    <footer>
+        S1DAM - &copy; 2021 Azarquiel
+    </footer>
+    </div>
+</body>
+
+</html>
